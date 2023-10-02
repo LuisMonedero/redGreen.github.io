@@ -1,6 +1,5 @@
-import { Component } from '@angular/core';
-import { FormControl } from '@angular/forms';
-import { Router } from '@angular/router';
+import { Component } from '@angular/core'
+import { Router } from '@angular/router'
 
 @Component({
   selector: 'app-home',
@@ -8,12 +7,11 @@ import { Router } from '@angular/router';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
-  constructor(public router: Router){
-  }
+  constructor (public route: Router) {}
 
-  checkName(name:string){
-    if(name!=""){
-      this.router.navigate(['home/'+name]);
+  checkName (name: string): void {
+    if (name !== '') {
+      void this.route.navigate(['home/' + name])
     }
   }
 }

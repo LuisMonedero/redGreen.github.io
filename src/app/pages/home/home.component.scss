@@ -1,5 +1,12 @@
-.title{
+.container{
+    margin: auto;
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    .btn{
+        margin-top: 1rem;
+        width: 100%;
+    }
 }

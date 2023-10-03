@@ -1,11 +1,11 @@
 import { NgModule, isDevMode } from '@angular/core'
 import { BrowserModule } from '@angular/platform-browser'
-
+import { LocationStrategy, HashLocationStrategy } from '@angular/common'
 import { AppRoutingModule } from './app-routing.module'
 import { AppComponent } from './app.component'
 import { ServiceWorkerModule } from '@angular/service-worker'
 import { GameComponent } from './pages/game/game.component'
-import { HomeComponent } from './pages/home/home.component';
+import { HomeComponent } from './pages/home/home.component'
 import { StepButtonComponent } from './components/step-button/step-button.component'
 
 @NgModule({
@@ -25,7 +25,9 @@ import { StepButtonComponent } from './components/step-button/step-button.compon
       registrationStrategy: 'registerWhenStable:30000'
     })
   ],
-  providers: [],
+  providers: [
+    { provide: LocationStrategy, useClass: HashLocationStrategy }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

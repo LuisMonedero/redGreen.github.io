@@ -12,7 +12,7 @@
           "/manifest.webmanifest",
           "/*.css",
           "/*.js",
-          "/*,mp3"
+          "/*.mp3"
         ]
       }
     },

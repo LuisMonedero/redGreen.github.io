@@ -7,7 +7,7 @@
 </header>
 <div class="container">
   
-  <h2>MAX SCORE: {{ maxScore }}</h2>
+  <h2>MAX SCORE: {{ this.maxScore }}</h2>
 
   <span [class]="buttonClass">
     <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" fill="currentColor" class="bi bi-stoplights" viewBox="0 0 16 16">
@@ -15,10 +15,10 @@
       <path d="M4 2a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2h2c-.167.5-.8 1.6-2 2v2h2c-.167.5-.8 1.6-2 2v2h2c-.167.5-.8 1.6-2 2v1a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-1c-1.2-.4-1.833-1.5-2-2h2V8c-1.2-.4-1.833-1.5-2-2h2V4c-1.2-.4-1.833-1.5-2-2h2zm2-1a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H6z"/>
     </svg>
   </span>
-  <h3>Score: {{ marcador }}</h3>
+  <h3>Score: {{ this.score }}</h3>
 </div>
 <footer class="footer">
-  <app-step-button [nameButton]="'Left'" [classButton]="'bi bi-triangle-fill rotateLeft'" [textPositionLeft]="false" (click)="pressLeft()"></app-step-button>
-  <app-step-button [nameButton]="'Right'" [classButton]="'bi bi-triangle-fill rotateRight'" [textPositionLeft]="true" (click)="pressRight()"></app-step-button>
+  <app-step-button [nameButton]="'Left'" [classSvg]="'bi bi-triangle-fill rotateLeft'" [textPositionLeft]="false" (click)="pressLeft()"></app-step-button>
+  <app-step-button [nameButton]="'Right'" [classSvg]="'bi bi-triangle-fill rotateRight'" [textPositionLeft]="true" (click)="pressRight()"></app-step-button>
 </footer>
 

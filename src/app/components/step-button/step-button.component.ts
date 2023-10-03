@@ -7,6 +7,6 @@ import { Component, Input } from '@angular/core'
 })
 export class StepButtonComponent {
   @Input() nameButton!: string
-  @Input() classButton!: string
+  @Input() classSvg!: string
   @Input() textPositionLeft!: boolean
 }

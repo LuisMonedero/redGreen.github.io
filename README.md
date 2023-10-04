@@ -42,7 +42,7 @@ https://red-green-github-io.vercel.app/#/home
 # Instructions
 <p>
   Once we open the app, we will be on the Home view and see something like this:
-  ![Screenshot1](https://user-images.githubusercontent.com/67056781/97783623-5ed69700-1b99-11eb-8e3b-5bfefbd38f27.jpg)
+  ![MyRemoteImage](https://www.dropbox.com/scl/fi/t8kziq72ns5zggvhzlxyg/Captura_1.png?rlkey=l4toyez5j8zw5oao95btnsppk&dl=0)
 </p>
 
 <span>

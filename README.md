@@ -1,7 +1,7 @@
 ## Link URL Vercel Deployment
 https://red-green-github-io.vercel.app/#/home
 
-# Instructions
+# Installation
 <p>
   To run the application follow the next steps:
 </p>
@@ -11,7 +11,7 @@ https://red-green-github-io.vercel.app/#/home
 </span>
 <br>
 <span>
-  - 2. Open the project with VSCode and open the terminal.
+  - 2. Open a terminal in the root directory of the project.
 </span>
 <br>
 <span>
@@ -27,13 +27,62 @@ https://red-green-github-io.vercel.app/#/home
 </span>
 <br>
 <span>
-  - 6. If you want to run it on your mobile device you have to check your IPv4. (You can do it running the command 'ipconfig'(Windows) or 'ifconfig'(Linux)  on your cmd).
+  - 6. You can also use the link bellow 'Installation' to open a deployment of the project on [Vercel](https://vercel.com).
 </span>
 <br>
 <span>
-  - 7. Once you have your IPv4, copy it to the browser on your mobile device and add ':4200' at the end. It should look like this: "192.168.XXX.XXX:4200".
+  - 7. If you want to run it on your mobile device, you can open the link of the deployment on your mobile device and install the app through it".
 </span>
+<br>
+<span>
+  - 8. Have fun!".
+</span>
+<br>
 
+# Instructions
+<p>
+  Once we open the app, we will be on the Home view and see something like this:
+  ![Screenshot1](https://user-images.githubusercontent.com/67056781/97783623-5ed69700-1b99-11eb-8e3b-5bfefbd38f27.jpg)
+</p>
+
+<span>
+  It is important to notice that if we dont write any name on the field, we wont be able to play the game.
+  Once we write the name player we want to use, we can press the 'Play' button, this will lead us to the Game view.
+
+
+  
+  *Before we navigate there, the app will check in his indexed DB if this player was created in this same device. 
+  If so, it will load his previous game at the same point he left it. If not, we will just create a new game.* 
+</span>
+<br>
+<span>
+  - 2. Open a terminal in the root directory of the project.
+</span>
+<br>
+<span>
+  - 3. Write the command 'npm i' in the terminal to install all the dependencies from the project.
+</span>
+<br>
+<span>
+  - 4. After it's completed, run the command 'ng serve' to run the project on localhost.
+</span>
+<br>
+<span>
+  - 5. Open your browser and navigate to 'http://localhost:4200/'.
+</span>
+<br>
+<span>
+  - 6. You can also use the link bellow 'Installation' to open a deployment of the project on [Vercel](https://vercel.com).
+</span>
+<br>
+<span>
+  - 7. If you want to run it on your mobile device, you can open the link of the deployment on your mobile device and install the app through it".
+</span>
+<br>
+<span>
+  - 8. Have fun!".
+</span>
+<br>
 
 # Usefull commands
 <p>Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.</p>
